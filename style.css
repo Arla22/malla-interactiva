@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #2C3E50;
+}
+
+#ramo1, #ramo2 {
+    background-color: white; /* Color para los ramos no aprobados */
+    padding: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #ccc; /* Agregado un borde gris claro */
+}
+
+#ramo1.aprobado, #ramo2.aprobado {
+    background-color: #912457; /* Color para los ramos aprobados */
+    color: white; /* Cambiar texto a blanco cuando el ramo esté aprobado */
+    text-decoration: line-through; /* Tachado cuando aprobado */
+}
+
+#ramo1.disabled, #ramo2.disabled {
+    background-color: #bdc3c7; /* Color para ramos deshabilitados */
+    pointer-events: none; /* Evita que los ramos deshabilitados sean clickeados */
+}
