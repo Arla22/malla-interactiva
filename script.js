@@ -1,27 +1,37 @@
-// Función para marcar un ramo como aprobado o no aprobado
-function toggleRamo(ramoId) {
-    const ramo = document.getElementById(ramoId);
-    if (ramo.classList.contains("aprobado")) {
-        ramo.classList.remove("aprobado");
-    } else {
-        ramo.classList.add("aprobado");
-        desbloquearRamos(ramoId);
-    }
-}
+document.addEventListener("DOMContentLoaded", function() {
+    // Cargar el archivo JSON
+    fetch('malla.json')
+    .then(response => response.json())
+    .then(data => {
+        mostrarMalla(data);
+    })
+    .catch(error => console.error('Error al cargar el JSON:', error));
 
-// Función para desbloquear ramos cuando uno es aprobado
-function desbloquearRamos(ramoId) {
-    if (ramoId === 'ramo1') {
-        // Desbloquear ramo 2 cuando ramo 1 es aprobado
-        document.getElementById("ramo2").classList.remove("disabled");
-    }
-    // Aquí puedes agregar más condiciones para desbloquear ramos adicionales
-}
+    // Mostrar la malla
+    function mostrarMalla(data) {
+        const contenedor = document.getElementById("malla");
 
-// Función para verificar si un ramo ya está aprobado
-function verificarRamos() {
-    // Si el ramo 1 está aprobado, desbloquear ramo 2
-    if (document.getElementById("ramo1").classList.contains("aprobado")) {
-        document.getElementById("ramo2").classList.remove("disabled");
+        data.mallaData.forEach(anio => {
+            const divAnio = document.createElement('div');
+            divAnio.classList.add('anio');
+            
+            anio.periodo.forEach(periodo => {
+                const divPeriodo = document.createElement('div');
+                divPeriodo.classList.add('semester');
+                divPeriodo.innerHTML = `<h2>${anio.año} - ${periodo}</h2>`;
+                
+                periodo.materias.forEach(materia => {
+                    const divMateria = document.createElement('div');
+                    divMateria.classList.add('materia');
+                    divMateria.innerHTML = `
+                        <strong>${materia.nombre}</strong> 
+                        <span>Creditos: ${materia.creditos}</span>
+                    `;
+                    divPeriodo.appendChild(divMateria);
+                });
+                divAnio.appendChild(divPeriodo);
+            });
+            contenedor.appendChild(divAnio);
+        });
     }
-}
+});
