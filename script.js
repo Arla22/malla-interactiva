@@ -15,11 +15,13 @@ document.addEventListener("DOMContentLoaded", function() {
             const divAnio = document.createElement('div');
             divAnio.classList.add('anio');
             
+            // Mostrar los semestres por cada año
             anio.periodo.forEach(periodo => {
                 const divPeriodo = document.createElement('div');
                 divPeriodo.classList.add('semester');
                 divPeriodo.innerHTML = `<h2>${anio.año} - ${periodo}</h2>`;
                 
+                // Mostrar las materias dentro de cada semestre
                 periodo.materias.forEach(materia => {
                     const divMateria = document.createElement('div');
                     divMateria.classList.add('materia');
@@ -35,4 +37,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
-
