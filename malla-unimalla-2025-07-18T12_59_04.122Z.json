@@ -1,0 +1,831 @@
+{
+  "mallaData": [
+    {
+      "año": 1,
+      "periodo": "Semestre 1",
+      "materias": [
+        {
+          "id": "cc6887a0-b6b9-4dbb-97da-c54f7051a1ab",
+          "tipo": "ninguno",
+          "nombre": "Química ",
+          "creditos": 5,
+          "requisitos": [],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "10615ab8-4fb0-4d18-bdd0-ca5a2fb692c6",
+          "tipo": "ninguno",
+          "nombre": "Matemática ",
+          "creditos": 3,
+          "requisitos": [],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "35e82061-1729-4fd9-a552-06c1dc0c2193",
+          "tipo": "ninguno",
+          "nombre": "Lengua y Oratoria ",
+          "creditos": 3,
+          "requisitos": [],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "360b2348-d93a-467b-bbbc-8ce5a548817a",
+          "tipo": "ninguno",
+          "nombre": "Introducción a la Medicina ",
+          "creditos": 2,
+          "requisitos": [],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "60ccc165-a49a-4bfc-b8cc-8a912a9a0801",
+          "tipo": "ninguno",
+          "nombre": "Desempeño Universitario ",
+          "creditos": 2,
+          "requisitos": [],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "a5d34fba-ebd5-4aa2-b568-3f43fd57c7f5",
+          "tipo": "ninguno",
+          "nombre": "Biología Celular y Molecular ",
+          "creditos": 6,
+          "requisitos": [],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 1,
+      "periodo": "Semestre 2",
+      "materias": [
+        {
+          "id": "d6fabc5f-741e-4778-afad-f087aa8453b3",
+          "tipo": "ninguno",
+          "nombre": "Redacción General ",
+          "creditos": 3,
+          "requisitos": [
+            "35e82061-1729-4fd9-a552-06c1dc0c2193"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "c67dce5e-0916-4b80-8a82-762ab7df65e0",
+          "tipo": "ninguno",
+          "nombre": "Realidad Nacional ",
+          "creditos": 2,
+          "requisitos": [
+            "35e82061-1729-4fd9-a552-06c1dc0c2193",
+            "60ccc165-a49a-4bfc-b8cc-8a912a9a0801"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "69ffc07a-6d0a-407d-8eab-5f10af0fb4a9",
+          "tipo": "ninguno",
+          "nombre": "Morfofisiologia I ",
+          "creditos": 6,
+          "requisitos": [
+            "a5d34fba-ebd5-4aa2-b568-3f43fd57c7f5"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "1c797b12-8685-4005-a3c7-c8f4ba24096d",
+          "tipo": "ninguno",
+          "nombre": "Introducción a la Investigación ",
+          "creditos": 3,
+          "requisitos": [
+            "35e82061-1729-4fd9-a552-06c1dc0c2193",
+            "360b2348-d93a-467b-bbbc-8ce5a548817a"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "383ce2a2-61d6-4744-975d-0785a7f7987f",
+          "tipo": "ninguno",
+          "nombre": "Bioquímica ",
+          "creditos": 5,
+          "requisitos": [
+            "cc6887a0-b6b9-4dbb-97da-c54f7051a1ab"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "b0dc92aa-e198-4ddd-9eb7-4945b446bfdd",
+          "tipo": "ninguno",
+          "nombre": "Anatomía General ",
+          "creditos": 3,
+          "requisitos": [
+            "a5d34fba-ebd5-4aa2-b568-3f43fd57c7f5"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 1,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 2,
+      "periodo": "Semestre 1",
+      "materias": [
+        {
+          "id": "be485bd5-34bd-4e52-81b2-8d2b5a752e8f",
+          "tipo": "ninguno",
+          "nombre": "Morfofisiologia II",
+          "creditos": 7,
+          "requisitos": [
+            "b0dc92aa-e198-4ddd-9eb7-4945b446bfdd",
+            "69ffc07a-6d0a-407d-8eab-5f10af0fb4a9"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "d5fb023a-e5f9-4636-a6d8-bff65011961b",
+          "tipo": "ninguno",
+          "nombre": "Inmunología ",
+          "creditos": 3,
+          "requisitos": [
+            "69ffc07a-6d0a-407d-8eab-5f10af0fb4a9"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "ca4251e3-01b4-4338-acfa-adebb35d91af",
+          "tipo": "ninguno",
+          "nombre": "Genética Médica ",
+          "creditos": 3,
+          "requisitos": [
+            "a5d34fba-ebd5-4aa2-b568-3f43fd57c7f5"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "182f784e-4610-45c5-83a6-e2c0e483ed11",
+          "tipo": "ninguno",
+          "nombre": "Filosofía ",
+          "creditos": 3,
+          "requisitos": [],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "0230abd3-ec79-49a2-bdb7-262782bf8e2f",
+          "tipo": "ninguno",
+          "nombre": "Estadística General",
+          "creditos": 4,
+          "requisitos": [
+            "10615ab8-4fb0-4d18-bdd0-ca5a2fb692c6"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "f1e0ed0a-ab4c-471b-b1bf-1a8711ea2bd2",
+          "tipo": "ninguno",
+          "nombre": "Educación Ambiental ",
+          "creditos": 2,
+          "requisitos": [
+            "35e82061-1729-4fd9-a552-06c1dc0c2193",
+            "60ccc165-a49a-4bfc-b8cc-8a912a9a0801"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 2,
+      "periodo": "Semestre 2",
+      "materias": [
+        {
+          "id": "d07a03b3-6f69-4b92-a998-65e9117396cc",
+          "tipo": "ninguno",
+          "nombre": "Morfofisiologia III",
+          "creditos": 7,
+          "requisitos": [
+            "b0dc92aa-e198-4ddd-9eb7-4945b446bfdd",
+            "69ffc07a-6d0a-407d-8eab-5f10af0fb4a9"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "39562fb3-b276-4730-8e6e-d56e63d30db2",
+          "tipo": "ninguno",
+          "nombre": "Infectología básica ",
+          "creditos": 5,
+          "requisitos": [
+            "383ce2a2-61d6-4744-975d-0785a7f7987f",
+            "69ffc07a-6d0a-407d-8eab-5f10af0fb4a9"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "4caca30d-541e-45b5-a766-4dff05a5f8aa",
+          "tipo": "ninguno",
+          "nombre": "Fisiopatología I",
+          "creditos": 4,
+          "requisitos": [
+            "be485bd5-34bd-4e52-81b2-8d2b5a752e8f"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "d5967d0e-d305-4506-910d-24744a2903b6",
+          "tipo": "ninguno",
+          "nombre": "Desarrollo y Crecimiento ",
+          "creditos": 3,
+          "requisitos": [
+            "a5d34fba-ebd5-4aa2-b568-3f43fd57c7f5"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "7b57025d-8156-465a-b16a-0613f855b4d1",
+          "tipo": "ninguno",
+          "nombre": "Bioética ",
+          "creditos": 2,
+          "requisitos": [
+            "360b2348-d93a-467b-bbbc-8ce5a548817a",
+            "d6fabc5f-741e-4778-afad-f087aa8453b3"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 2,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 3,
+      "periodo": "Semestre 1",
+      "materias": [
+        {
+          "id": "0b7ede2f-6041-428b-b0f3-cda6c13f9af6",
+          "tipo": "ninguno",
+          "nombre": "Salud mental",
+          "creditos": 4,
+          "requisitos": [
+            "182f784e-4610-45c5-83a6-e2c0e483ed11"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "f4c9147e-41a0-4d14-918f-79123f2d5cf2",
+          "tipo": "ninguno",
+          "nombre": "Morfofisiologia IV",
+          "creditos": 6,
+          "requisitos": [
+            "d07a03b3-6f69-4b92-a998-65e9117396cc"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "df9d46ae-588b-4ccd-a4b4-2c4e72300cb6",
+          "tipo": "ninguno",
+          "nombre": "Fundamentos de Medicina Intercultural",
+          "creditos": 2,
+          "requisitos": [
+            "182f784e-4610-45c5-83a6-e2c0e483ed11",
+            "c67dce5e-0916-4b80-8a82-762ab7df65e0"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "29c00c60-5924-4606-80b9-ce9059ad2f08",
+          "tipo": "ninguno",
+          "nombre": "Fisiopatología II",
+          "creditos": 5,
+          "requisitos": [
+            "be485bd5-34bd-4e52-81b2-8d2b5a752e8f"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "920fe193-4e78-456d-99d6-0aec6da82336",
+          "tipo": "ninguno",
+          "nombre": "Bioestadística ",
+          "creditos": 2,
+          "requisitos": [
+            "0230abd3-ec79-49a2-bdb7-262782bf8e2f"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 3,
+      "periodo": "Semestre 2",
+      "materias": [
+        {
+          "id": "ab7f0bd5-9a40-465a-b854-14017c597a7f",
+          "tipo": "ninguno",
+          "nombre": "Semiología basada en la Simulación ",
+          "creditos": 2,
+          "requisitos": [
+            "4caca30d-541e-45b5-a766-4dff05a5f8aa",
+            "29c00c60-5924-4606-80b9-ce9059ad2f08",
+            "d5fb023a-e5f9-4636-a6d8-bff65011961b",
+            "be485bd5-34bd-4e52-81b2-8d2b5a752e8f",
+            "d07a03b3-6f69-4b92-a998-65e9117396cc",
+            "f4c9147e-41a0-4d14-918f-79123f2d5cf2"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "f5f7fc50-6d54-4f5d-aef9-1c1e83de52e7",
+          "tipo": "ninguno",
+          "nombre": "Semiología ",
+          "creditos": 5,
+          "requisitos": [
+            "4caca30d-541e-45b5-a766-4dff05a5f8aa",
+            "29c00c60-5924-4606-80b9-ce9059ad2f08",
+            "d5fb023a-e5f9-4636-a6d8-bff65011961b",
+            "be485bd5-34bd-4e52-81b2-8d2b5a752e8f",
+            "d07a03b3-6f69-4b92-a998-65e9117396cc",
+            "f4c9147e-41a0-4d14-918f-79123f2d5cf2"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "f88bfd16-fe80-494e-8d6d-c8a5a4150051",
+          "tipo": "ninguno",
+          "nombre": "Farmacología ",
+          "creditos": 6,
+          "requisitos": [
+            "39562fb3-b276-4730-8e6e-d56e63d30db2"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "88bb8fc9-689a-4316-8dc9-19903ef5b951",
+          "tipo": "ninguno",
+          "nombre": "Apoyo al diagnóstico ",
+          "creditos": 3,
+          "requisitos": [
+            "f4c9147e-41a0-4d14-918f-79123f2d5cf2"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "fd8b3fa5-6907-41fb-a4ef-c990516a8baf",
+          "tipo": "ninguno",
+          "nombre": "Anatomía Patológica ",
+          "creditos": 4,
+          "requisitos": [
+            "29c00c60-5924-4606-80b9-ce9059ad2f08"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 3,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 4,
+      "periodo": "Semestre 1",
+      "materias": [
+        {
+          "id": "5c8a667a-5032-4f4d-8e80-08c069d7e5df",
+          "tipo": "ninguno",
+          "nombre": "Seguridad del Paciente y Calidad de la Atención Médica",
+          "creditos": 2,
+          "requisitos": [
+            "7b57025d-8156-465a-b16a-0613f855b4d1"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "ce5a9a12-4d3d-4909-afb2-588b5b3d8d34",
+          "tipo": "ninguno",
+          "nombre": "Nutrición y Prácticas Saludables",
+          "creditos": 4,
+          "requisitos": [
+            "f88bfd16-fe80-494e-8d6d-c8a5a4150051"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "1390b769-a6f8-4fb9-ae24-ba0b58ada752",
+          "tipo": "ninguno",
+          "nombre": "Metodología de la Investigación",
+          "creditos": 2,
+          "requisitos": [
+            "920fe193-4e78-456d-99d6-0aec6da82336"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "1ac1774a-47d8-4602-a0ac-f82c611c49c7",
+          "tipo": "ninguno",
+          "nombre": "Medicina Interna I",
+          "creditos": 10,
+          "requisitos": [
+            "fd8b3fa5-6907-41fb-a4ef-c990516a8baf",
+            "f5f7fc50-6d54-4f5d-aef9-1c1e83de52e7",
+            "ab7f0bd5-9a40-465a-b854-14017c597a7f"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "d13461b8-80f6-44c5-84cb-c96dc595c089",
+          "tipo": "ninguno",
+          "nombre": "Epidemiología",
+          "creditos": 4,
+          "requisitos": [
+            "920fe193-4e78-456d-99d6-0aec6da82336"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 4,
+      "periodo": "Semestre 2",
+      "materias": [
+        {
+          "id": "6e7d447d-4bdd-4430-9305-e81e3bfd7347",
+          "tipo": "ninguno",
+          "nombre": "Salud Pública ",
+          "creditos": 4,
+          "requisitos": [
+            "d13461b8-80f6-44c5-84cb-c96dc595c089"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "5a40c640-c37e-4da3-81c2-4325504095e2",
+          "tipo": "ninguno",
+          "nombre": "Medicina Interna II",
+          "creditos": 10,
+          "requisitos": [
+            "1ac1774a-47d8-4602-a0ac-f82c611c49c7"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "5abdbd3a-675f-400f-a1d7-47027207c8f7",
+          "tipo": "ninguno",
+          "nombre": "Medicina Basada en la Evidencia",
+          "creditos": 2,
+          "requisitos": [
+            "d13461b8-80f6-44c5-84cb-c96dc595c089",
+            "1390b769-a6f8-4fb9-ae24-ba0b58ada752"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "22b5c3e3-f8d7-43e1-acb8-e7b7755d2ff4",
+          "tipo": "ninguno",
+          "nombre": "Atencion Primaria en Salud",
+          "creditos": 4,
+          "requisitos": [
+            "d13461b8-80f6-44c5-84cb-c96dc595c089"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 4,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 5,
+      "periodo": "Semestre 1",
+      "materias": [
+        {
+          "id": "ae09d227-35be-4c29-b6ca-67a0ec4abd46",
+          "tipo": "ninguno",
+          "nombre": "Tesis I",
+          "creditos": 2,
+          "requisitos": [
+            "5abdbd3a-675f-400f-a1d7-47027207c8f7"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "862fd204-fd00-4e77-88f9-bbc965a00671",
+          "tipo": "ninguno",
+          "nombre": "Terapéutica",
+          "creditos": 2,
+          "requisitos": [
+            "5a40c640-c37e-4da3-81c2-4325504095e2"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "adc9f37c-c48d-4ff7-b3a9-74f0dcc750a4",
+          "tipo": "ninguno",
+          "nombre": "Simulación Clínica Integrada",
+          "creditos": 3,
+          "requisitos": [
+            "5a40c640-c37e-4da3-81c2-4325504095e2"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "81c83b71-de6d-4be3-90c4-f546d8aa8e8e",
+          "tipo": "ninguno",
+          "nombre": "Medicina Legal",
+          "creditos": 2,
+          "requisitos": [
+            "7b57025d-8156-465a-b16a-0613f855b4d1",
+            "f5f7fc50-6d54-4f5d-aef9-1c1e83de52e7",
+            "ab7f0bd5-9a40-465a-b854-14017c597a7f"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "ddbb44c7-5da6-47ec-a521-bad292dcb300",
+          "tipo": "ninguno",
+          "nombre": "Medicina Interna III",
+          "creditos": 10,
+          "requisitos": [
+            "5a40c640-c37e-4da3-81c2-4325504095e2"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 5,
+      "periodo": "Semestre 2",
+      "materias": [
+        {
+          "id": "cf80ff36-1195-4270-82f3-7a7487fa64ae",
+          "tipo": "ninguno",
+          "nombre": "Simulación Quirúrgica ",
+          "creditos": 2,
+          "requisitos": [
+            "ddbb44c7-5da6-47ec-a521-bad292dcb300",
+            "adc9f37c-c48d-4ff7-b3a9-74f0dcc750a4"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "485c4756-fc59-4b13-a852-2e76dde7fd5a",
+          "tipo": "ninguno",
+          "nombre": "Ecografía ",
+          "creditos": 2,
+          "requisitos": [
+            "88bb8fc9-689a-4316-8dc9-19903ef5b951",
+            "f5f7fc50-6d54-4f5d-aef9-1c1e83de52e7"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "784de1e1-5219-43fb-bd45-dcf1fdef0a44",
+          "tipo": "ninguno",
+          "nombre": "Cuidados Paliativos y Rehabilitación Física",
+          "creditos": 2,
+          "requisitos": [
+            "862fd204-fd00-4e77-88f9-bbc965a00671",
+            "7b57025d-8156-465a-b16a-0613f855b4d1"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "2f6efdd5-921d-4d4d-a819-411c16c2119e",
+          "tipo": "ninguno",
+          "nombre": "Cirugía ",
+          "creditos": 11,
+          "requisitos": [
+            "ddbb44c7-5da6-47ec-a521-bad292dcb300",
+            "adc9f37c-c48d-4ff7-b3a9-74f0dcc750a4"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "91e56f8b-073d-44ea-9b82-af4be89f72fd",
+          "tipo": "ninguno",
+          "nombre": "Análisis de Casos I",
+          "creditos": 2,
+          "requisitos": [
+            "ddbb44c7-5da6-47ec-a521-bad292dcb300",
+            "adc9f37c-c48d-4ff7-b3a9-74f0dcc750a4",
+            "862fd204-fd00-4e77-88f9-bbc965a00671"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 5,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 6,
+      "periodo": "Semestre 1",
+      "materias": [
+        {
+          "id": "7bb5ac4a-9474-42f5-ac20-abf8235d6c84",
+          "tipo": "ninguno",
+          "nombre": "Tesis II",
+          "creditos": 2,
+          "requisitos": [
+            "ae09d227-35be-4c29-b6ca-67a0ec4abd46"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "91673f91-03c9-4f59-8fd7-e7433b4c3cb4",
+          "tipo": "ninguno",
+          "nombre": "Simulación Pediatrica ",
+          "creditos": 2,
+          "requisitos": [
+            "ddbb44c7-5da6-47ec-a521-bad292dcb300",
+            "adc9f37c-c48d-4ff7-b3a9-74f0dcc750a4"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "08bca30f-8b62-42f8-af88-a17423d17708",
+          "tipo": "ninguno",
+          "nombre": "Simulación Gineco-Obtetricia",
+          "creditos": 2,
+          "requisitos": [
+            "2f6efdd5-921d-4d4d-a819-411c16c2119e",
+            "cf80ff36-1195-4270-82f3-7a7487fa64ae"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "18ae3628-3714-4bad-a62a-d4b37d7aab79",
+          "tipo": "ninguno",
+          "nombre": "Pediatría ",
+          "creditos": 10,
+          "requisitos": [
+            "ddbb44c7-5da6-47ec-a521-bad292dcb300",
+            "adc9f37c-c48d-4ff7-b3a9-74f0dcc750a4"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "d6acdc87-fc3f-44ba-a6ef-f34d19025e6f",
+          "tipo": "ninguno",
+          "nombre": "Ginecologia y Obstetricia",
+          "creditos": 6,
+          "requisitos": [
+            "2f6efdd5-921d-4d4d-a819-411c16c2119e",
+            "cf80ff36-1195-4270-82f3-7a7487fa64ae"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 6,
+      "periodo": "Semestre 2",
+      "materias": [
+        {
+          "id": "ec90d9e3-3c8f-4a61-93ed-830b998ee088",
+          "tipo": "ninguno",
+          "nombre": "Pre-Internado",
+          "creditos": 16,
+          "requisitos": [
+            "7bb5ac4a-9474-42f5-ac20-abf8235d6c84",
+            "91673f91-03c9-4f59-8fd7-e7433b4c3cb4",
+            "08bca30f-8b62-42f8-af88-a17423d17708",
+            "18ae3628-3714-4bad-a62a-d4b37d7aab79",
+            "d6acdc87-fc3f-44ba-a6ef-f34d19025e6f"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "0501f3b0-67ce-48a5-acc5-eb4d6a3cd5f2",
+          "tipo": "ninguno",
+          "nombre": "Informática Biomédica",
+          "creditos": 2,
+          "requisitos": [
+            "22b5c3e3-f8d7-43e1-acb8-e7b7755d2ff4"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "df4b77bc-1376-4c60-9705-2d6c1814403f",
+          "tipo": "ninguno",
+          "nombre": "Gerencia en Salud ",
+          "creditos": 2,
+          "requisitos": [
+            "22b5c3e3-f8d7-43e1-acb8-e7b7755d2ff4"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "fbe287a2-1cc9-4388-ba88-3416ba1466d8",
+          "tipo": "ninguno",
+          "nombre": "Análisis de Casos II",
+          "creditos": 2,
+          "requisitos": [
+            "91e56f8b-073d-44ea-9b82-af4be89f72fd"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 6,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 7,
+      "periodo": "Semestre 1",
+      "materias": [
+        {
+          "id": "c0afe86f-8161-442d-805b-33efd063f377",
+          "tipo": "ninguno",
+          "nombre": "Trabajo de Investigación ",
+          "creditos": 1,
+          "requisitos": [
+            "ec90d9e3-3c8f-4a61-93ed-830b998ee088",
+            "0501f3b0-67ce-48a5-acc5-eb4d6a3cd5f2",
+            "df4b77bc-1376-4c60-9705-2d6c1814403f",
+            "fbe287a2-1cc9-4388-ba88-3416ba1466d8"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "d6c5e4d4-a5e6-4268-bb24-378feecf0aaa",
+          "tipo": "ninguno",
+          "nombre": "Internado en Pediatría ",
+          "creditos": 10,
+          "requisitos": [
+            "ec90d9e3-3c8f-4a61-93ed-830b998ee088",
+            "0501f3b0-67ce-48a5-acc5-eb4d6a3cd5f2",
+            "df4b77bc-1376-4c60-9705-2d6c1814403f",
+            "fbe287a2-1cc9-4388-ba88-3416ba1466d8"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "4f253059-592c-4c80-9b77-8737119bd960",
+          "tipo": "ninguno",
+          "nombre": "Internado en Medicina ",
+          "creditos": 10,
+          "requisitos": [
+            "ec90d9e3-3c8f-4a61-93ed-830b998ee088",
+            "0501f3b0-67ce-48a5-acc5-eb4d6a3cd5f2",
+            "df4b77bc-1376-4c60-9705-2d6c1814403f",
+            "fbe287a2-1cc9-4388-ba88-3416ba1466d8"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "24852361-540e-4c94-9cb2-7a1fa0738bf1",
+          "tipo": "ninguno",
+          "nombre": "Internado en Cirugía ",
+          "creditos": 10,
+          "requisitos": [
+            "ec90d9e3-3c8f-4a61-93ed-830b998ee088",
+            "0501f3b0-67ce-48a5-acc5-eb4d6a3cd5f2",
+            "df4b77bc-1376-4c60-9705-2d6c1814403f",
+            "fbe287a2-1cc9-4388-ba88-3416ba1466d8"
+          ],
+          "requiereCreditos": 0
+        },
+        {
+          "id": "62fdc383-75cb-41cc-bda2-2fe7e69a5737",
+          "tipo": "ninguno",
+          "nombre": "Internado en Ginecología y Obstetricia",
+          "creditos": 10,
+          "requisitos": [
+            "ec90d9e3-3c8f-4a61-93ed-830b998ee088",
+            "0501f3b0-67ce-48a5-acc5-eb4d6a3cd5f2",
+            "df4b77bc-1376-4c60-9705-2d6c1814403f",
+            "fbe287a2-1cc9-4388-ba88-3416ba1466d8"
+          ],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 7,
+      "periodo": "Semestre 2",
+      "materias": [
+        {
+          "id": "9e1e60b0-69db-4a9b-9f9d-233f489d9985",
+          "tipo": "ninguno",
+          "nombre": "Ingles A2",
+          "creditos": 0,
+          "requisitos": [],
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 7,
+      "periodo": "anual",
+      "materias": []
+    }
+  ],
+  "estructuraPorAnio": [],
+  "cantidadAnios": 0
+}
